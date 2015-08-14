@@ -137,7 +137,7 @@ class ChatSystemSetting
     public function print_section_info()
     {
 	 $url = plugins_url();
-      print '<img src="'.$url.'/chatsystem/img/chat-system.png" alt="ChatSystem.io"/>'; 
+      print '<img src="'.$url.'/chatsystemio/img/chat-system.png" alt="ChatSystem.io"/>'; 
     }
 
     /** 
