@@ -9,7 +9,7 @@ Description: For use with a ChatSystem.io account into WordPress enabled Website
 If you are not already a user, please head to ChatSystem.io 
 If you are a current customer, you will need you Unique customer key to activate this plugin. If you need your key, please email support@chatsystem.io
 Go to setting Page under Setting menu in Dashboard
-Version: 3.1.3
+Version: 1.0
 Author: Web Developer
 Author URI: www.bhoopendra.com
 License: GPLv2 or later
@@ -57,7 +57,7 @@ class ChatSystemSetting
         // This page will be under "Settings"
         add_options_page(
             'Settings Admin', 
-            'Chat System Settings', 
+            'ChatSystem Settings', 
             'manage_options', 
             'chat-setting-admin', 
 			array( $this, 'create_admin_page' )
